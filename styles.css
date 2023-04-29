@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+
+.card {
+	width:80%;
+	text-align: center;
+}
+
+#animal-photos {
+	display:grid;
+	width:60%;
+	grid-template-columns:repeat(3,auto);
+	justify-content:center;
+	gap:10px 20px;
+	
+}
